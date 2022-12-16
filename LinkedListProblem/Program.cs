@@ -49,6 +49,9 @@ namespace LinkedListsProblems
             queue_Ex.Enqueue(30);
             queue_Ex.Enqueue(40);
             queue_Ex.Display();
+
+            queue_Ex.Dequeue();
+            queue_Ex.Display();
         }
     }
 }

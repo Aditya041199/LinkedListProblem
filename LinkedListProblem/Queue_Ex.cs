@@ -37,5 +37,14 @@ namespace LinkedListProblem
                 temp = temp.Next;
             }
         }
+        public void Dequeue()
+        {
+            if (front == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+    Console.WriteLine("{0} element dequeue", front.data);
+            front = front.Next;
+        }
     }
 }
