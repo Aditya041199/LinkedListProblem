@@ -1,2 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LinkedListProblem;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LinkedListsProblems
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            LinkedList list = new LinkedList();
+            list.Addnote(10);
+            list.Addnote(20);
+            list.Addnote(30);
+            list.Display();
+        }
+    }
+}
