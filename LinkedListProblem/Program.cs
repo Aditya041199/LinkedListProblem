@@ -30,7 +30,18 @@ namespace LinkedListsProblems
             stack_.Push(10);
             stack_.Push(20);
             stack_.Push(30);
-            ;stack_.Display();
+            stack_.Peek();
+            stack_.Display();
+
+            stack_.Pop();
+
+            stack_.Display();
+            stack_.Pop();
+
+            stack_.Display();
+            stack_.Pop();
+
+            stack_.Display();
         }
     }
 }
