@@ -22,8 +22,10 @@ namespace LinkedListsProblems
             //list.Addreverse(30);
             //list.Display();
 
-            list.Delete();
+          
+            list.DeleteLast();
             list.Display();
+
         }
     }
 }
