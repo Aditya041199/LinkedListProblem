@@ -26,6 +26,11 @@ namespace LinkedListsProblems
             list.DeleteLast();
             list.Display();
 
+            Stack_Ex stack_ = new Stack_Ex();
+            stack_.Push(10);
+            stack_.Push(20);
+            stack_.Push(30);
+            ;stack_.Display();
         }
     }
 }
