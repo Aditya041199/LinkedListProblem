@@ -61,5 +61,15 @@ namespace LinkedListProblem
                 head.Next = temp;
             }
         }
+        public void Delete()
+        {
+            Node node = head;
+            if (head != null)
+            {
+                node = head;
+                head = head.Next;
+                node = null;
+            }
+        }
     }
 }
